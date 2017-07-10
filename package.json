@@ -1,0 +1,16 @@
+{
+  "name": "svandecappelle.github.io",
+  "version": "0.0.1",
+  "dependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-less": "*",
+    "grunt-contrib-uglify": "*",
+    "grunt-contrib-copy": "*",
+    "grunt-contrib-clean": "^1.1.0",
+    "bower": "*",
+    "grunt-exec": "*"
+  },
+  "engines": {
+    "npm": "1.2.x"
+  }
+}
