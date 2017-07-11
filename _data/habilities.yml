@@ -7,7 +7,7 @@
       level: 5
     - name: GWT
       level: 5
-- name: programming languages
+- name: Programming languages
   habilities:
     - name: Java / J2EE
       level: 5
@@ -25,7 +25,7 @@
       level: 2
     - name: Lua
       level: 1
-- name: databases
+- name: Databases
   habilities:
     - name: Oracle
       level: 5
@@ -35,7 +35,7 @@
       level: 5
     - name: Mongodb
       level: 4
-- name: programming utils
+- name: Programming utils
   habilities:
     - name: Restfull API conception
       level: 5
