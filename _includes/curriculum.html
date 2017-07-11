@@ -1,3 +1,44 @@
-<div>
-  
-</div>
+<section class="news">
+  <div class="grid">
+    <div class="unit four-fifths">
+
+      <h2>Habilities</h2>
+      {% for hability in site.data.habilities %}
+      <h3 class="title" id="{{hability.name}}"><a href="#{{hability.name}}">{{ hability.name }}</a></h3>
+
+        <ul class="list-group">
+        {% for hability in hability.habilities %}
+        	<li class="list-group-item">
+            {{ hability.name }}
+        	</li>
+        {% endfor %}
+        </ul>
+      {% endfor %}
+      <hr/>
+      <h2>Jobs</h2>
+      {% for experiency in site.data.jobs %}
+        <h3 class="title" id="{{ experiency.name }}"><a href="#{{ experiency.name }}">{{ experiency.name }}</a></h3>
+      {% endfor %}
+    </div>
+
+    <aside>
+      <h4>Habilities</h4>
+      <ul>
+        {% for hability in site.data.habilities %}
+          <li>
+            <a href="#{{ hability.name }}">{{ hability.name }}</a>
+          </li>
+        {% endfor %}
+      </ul>
+      <h4>Experiences</h4>
+      <ul>
+        {% for experiency in site.data.jobs %}
+          <li>
+            <a href="#{{ experiency.name }}">{{ experiency.name }}</a>
+          </li>
+        {% endfor %}
+      </ul>
+    </aside>
+    <div class="clear"></div>
+  </div>
+</section>
