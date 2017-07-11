@@ -51,6 +51,8 @@
       level: 5
     - name: Tomcat
       level: 5
+    - name: JBoss
+      level: 5
     - name: Zimbra
       level: 2
     - name: Sonar

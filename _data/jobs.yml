@@ -1,2 +1,8 @@
 - name: Vekia
+  content: |
+    testing multiline
+    value
+
+    testing
+    Website: <a href='http://www.vekia.fr/'>Vekia</a>
 - name: Opti-Mix

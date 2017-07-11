@@ -2,7 +2,8 @@
   "name": "svandecappelle.github.io",
   "dependencies": {
     "bootstrap": "~3.3.7",
-    "jquery": "~3.2.1"
+    "jquery": "~3.2.1",
+    "jquery.sticky": "^1.0.0"
   },
   "ignore": [
     "**/.*",

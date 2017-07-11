@@ -23,6 +23,7 @@ grunt.initConfig({
     bootstrap: {
       files: [
         {expand: true, cwd: 'bower_components/bootstrap/dist/css', src: ['*.min.css'], dest: 'assets/css'},
+        {expand: true, cwd: 'bower_components/bootstrap/dist/css', src: ['*.min.css.map'], dest: 'assets/css'},
         {expand: true, cwd: 'bower_components/bootstrap/dist/fonts', src: ['**'], dest: 'assets/fonts'},
         {expand: true, cwd: 'bower_components/bootstrap/dist/js', src: ['*.min.js'], dest: 'assets/js'}
       ]
@@ -30,6 +31,11 @@ grunt.initConfig({
     jquery: {
       files: [{
         expand: true, cwd: 'bower_components/jquery/dist/', src: ['jquery.min.js'], dest: 'assets/js/'
+      }]
+    },
+    sticky: {
+      files: [{
+        expand: true, cwd: 'src/', src: ['sticky.js'], dest: 'assets/js/'
       }]
     }
   },
