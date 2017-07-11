@@ -57,6 +57,7 @@ $starInactive: "%23082532";
 
 .star-rating {
     float: right;
+    padding-top: 4px;
     height: ($ratingSize/5);
     position: relative;
     width: $ratingSize;
@@ -71,7 +72,7 @@ $starInactive: "%23082532";
         left: 0;
         position: absolute;
         right: 0;
-        top: 0;
+        top: 4px;
         width: $ratingSize;
     }
     > span.stars {
