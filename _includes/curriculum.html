@@ -1,53 +1,55 @@
-<section class="news">
-  <div class="grid">
-    <div class="unit four-fifths">
+<main id="curriculum">
+  <section class="news">
+    <div class="grid">
+      <div class="unit four-fifths">
 
-      <h2>Habilities</h2>
-      {% for hability in site.data.habilities %}
-      <h3 class="title" id="{{hability.name}}"><a href="#{{hability.name}}">{{ hability.name }}</a></h3>
+        <h2>Habilities</h2>
+        {% for hability in site.data.habilities %}
+        <h3 class="title" id="{{hability.name}}"><a href="#{{hability.name}}">{{ hability.name }}</a></h3>
 
-        <ul class="list-group">
-        {% for hability in hability.habilities %}
-        	<li class="list-group-item">
-            <span>{{ hability.name }}</span>
-            <div class="star-rating">
+          <ul class="list-group">
+          {% for hability in hability.habilities %}
+          	<li class="list-group-item">
+              <span>{{ hability.name }}</span>
+              <div class="star-rating">
 
-              <span class="stars" style="width: {{hability.level | divided_by: 5.0 | times: 100}}%"></span>
-            </div>
-        	</li>
+                <span class="stars" style="width: {{hability.level | divided_by: 5.0 | times: 100}}%"></span>
+              </div>
+          	</li>
+          {% endfor %}
+          </ul>
         {% endfor %}
-        </ul>
-      {% endfor %}
-      <hr/>
-      <h2>Jobs</h2>
-      {% for experiency in site.data.jobs %}
-        <h3 class="title" id="{{ experiency.name }}"><a href="#{{ experiency.name }}">{{ experiency.name }}</a></h3>
-        <div>
-<p class="highlight" style="margin-top: 2px; padding-left: 5px;">{{ experiency.content }}</p>
-        </div>
-      {% endfor %}
-    </div>
+        <hr/>
+        <h2>Jobs</h2>
+        {% for experiency in site.data.jobs %}
+          <h3 class="title" id="{{ experiency.name }}"><a href="#{{ experiency.name }}">{{ experiency.name }}</a></h3>
+          <div>
+  <p class="highlight" style="margin-top: 2px; padding-left: 5px;">{{ experiency.content }}</p>
+          </div>
+        {% endfor %}
+      </div>
 
-    <div id="curriculum-sumary">
-      <aside class="sticky">
-        <h4>Habilities</h4>
-        <ul>
-          {% for hability in site.data.habilities %}
-            <li>
-              <a href="#{{ hability.name }}">{{ hability.name }}</a>
-            </li>
-          {% endfor %}
-        </ul>
-        <h4>Experiences</h4>
-        <ul>
-          {% for experiency in site.data.jobs %}
-            <li>
-              <a href="#{{ experiency.name }}">{{ experiency.name }}</a>
-            </li>
-          {% endfor %}
-        </ul>
-      </aside>
+      <div id="curriculum-sumary">
+        <aside class="sticky">
+          <h4>Habilities</h4>
+          <ul>
+            {% for hability in site.data.habilities %}
+              <li>
+                <a href="#{{ hability.name }}">{{ hability.name }}</a>
+              </li>
+            {% endfor %}
+          </ul>
+          <h4>Experiences</h4>
+          <ul>
+            {% for experiency in site.data.jobs %}
+              <li>
+                <a href="#{{ experiency.name }}">{{ experiency.name }}</a>
+              </li>
+            {% endfor %}
+          </ul>
+        </aside>
+      </div>
+      <div class="clear"></div>
     </div>
-    <div class="clear"></div>
-  </div>
-</section>
+  </section>
+</main>

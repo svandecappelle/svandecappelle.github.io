@@ -2,6 +2,8 @@
 
  html {
    box-sizing: border-box;
+   height: 100%;
+   position: relative;
  }
 
  *,
@@ -13,10 +15,6 @@
 body {
   font: 300 21px Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;
   color: #ddd;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
   background-color: #282C34;
   text-shadow: 0 1px 3px rgba(181, 181, 181, 0.5);
   -webkit-font-feature-settings: "kern" 1;
@@ -25,7 +23,6 @@ body {
   font-feature-settings: "kern" 1;
   font-kerning: normal;
   margin: 0;
-  padding-bottom: 5em;
 }
 
 .clear {
@@ -181,11 +178,15 @@ h6:hover .header-link {
 /* Footer */
 
 footer {
-  position: fixed;
-  bottom: 0px;
   background-color: #373C47;
   font-size: 16px;
   color: #c0c0c0;
+
+  position: static;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  overflow: hidden;
 
   @include box-shadow(0 -3px 30px rgba(0, 0, 0, 0.3));
 

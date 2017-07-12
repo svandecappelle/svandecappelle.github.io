@@ -18,6 +18,12 @@ p.highlight{
 
 .header-is-sticky header{
   @include box-shadow(0px 1px 12px rgba(0,0,0,0.5));
+  z-index: 1 !important;
+}
+
+.unit.four-fifths h2 {
+  border-bottom: 1px solid white;
+  margin-bottom: 20px;
 }
 
 .unit.four-fifths h2, .unit.four-fifths h3{
@@ -28,15 +34,23 @@ p.highlight{
   padding-bottom: 15px;
 }
 
-.unit.four-fifths h3 {
-  // text-decoration: overline;
-  border-top: 1px solid white;
-  border-left: 1px solid white;
-  border-right: 1px solid white;
-  border-radius: 5px 5px 0px 0px;
+.unit.four-fifths h3{
   width: 50%;
   margin-left: auto;
   margin-right: auto;
+  position: relative;
+}
+
+.unit.four-fifths h3:before {
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+  content: '';
+  width: 100%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 6rem;
+  bottom: 0;
 }
 
 #curriculum-sumary{
@@ -50,6 +64,37 @@ p.highlight{
   }
 }
 
+main {
+  height: calc(100% - 18rem);
+}
+
+body.wrap{
+  padding-top: 5rem;
+  height: 100%;
+  position: relative;
+}
+
+main#curriculum section.news h3{
+  padding-top: 110px;
+  margin-top: -110px;
+  z-index: -1;
+}
+
+ul.list-group {
+  border: 1px solid white;
+  border-radius: 5px;
+  padding-top: 1px;
+}
+
+ul.list-group li.list-group-item{
+  border: none;
+  @include transition(all 250ms linear);
+}
+
+ul.list-group li.list-group-item:hover{
+  background-color: #616060;
+  @include transition(all 250ms linear);
+}
 
 $ratingSize: 80px;
 $starActive: "%231F99CD";
