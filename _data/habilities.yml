@@ -1,4 +1,6 @@
-- name: Web development
+- name: web-development
+  en: Web Development
+  fr: Développement Web
   level: 5
   habilities:
     - name: Nodejs
@@ -7,7 +9,9 @@
       level: 5
     - name: GWT
       level: 5
-- name: Programming languages
+- name: programming-languages
+  fr: Langages
+  en: Programming languages
   habilities:
     - name: Java / J2EE
       level: 5

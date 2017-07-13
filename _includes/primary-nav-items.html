@@ -1,17 +1,17 @@
 <ul>
   <li class="{% if page.overview %}current{% endif %}">
-    <a href="/">Home</a>
+    <a href="/">{{ site.data.i18n.home[page.lang] }}</a>
   </li>
   <li class="{% if page.author %}current{% endif %}">
-    <a href="/news/">News</a>
+    <a href="/news/">{{ site.data.i18n.articles[page.lang] }}</a>
   </li>
   <li>
-    <a href="/projects">Projects</a>
+    <a href="/projects">{{ site.data.i18n.projects[page.lang] }}</a>
   </li>
   <li>
     <a href="{{ site.repository }}">GitHub</a>
   </li>
   <li>
-    <a href="/about">About</a>
+    <a href="/about">{{ site.data.i18n.about[page.lang] }}</a>
   </li>
 </ul>

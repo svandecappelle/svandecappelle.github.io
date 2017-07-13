@@ -1,7 +1,8 @@
 ---
 layout: base
 ref: index
-lang: en
+lang: fr
 ---
+
 {% include terminal.html %}
 {% include curriculum.html %}
