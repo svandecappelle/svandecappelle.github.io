@@ -1,7 +1,6 @@
 - name: web-development
   en: Web Development
   fr: Développement Web
-  level: 5
   habilities:
     - name: Nodejs
       level: 5
@@ -9,59 +8,73 @@
       level: 5
     - name: GWT
       level: 5
+    - name: Express / REST API
+      level: 5
+    - name: Java / J2EE
+      level: 4
+    - name: Angular
+      level: 1
 - name: programming-languages
   fr: Langages
   en: Programming languages
   habilities:
     - name: Java / J2EE
       level: 5
-    - name: Scala
-      level: 2
     - name: Javascript / CoffeeScript
       level: 5
     - name: Python
       level: 4
     - name: SQL
       level: 4
+    - name: bash
+      level: 4
     - name: C / C++
       level: 3
     - name: Perl
       level: 2
+    - name: Scala
+      level: 2
     - name: Lua
       level: 1
 - name: Databases
+  fr: Bases de données
+  en: Databases
   habilities:
     - name: Oracle
       level: 5
-    - name: Postgresql
-      level: 3
     - name: Redis
       level: 5
     - name: Mongodb
       level: 4
+    - name: Postgresql
+      level: 3
 - name: Programming utils
+  fr: Outils
+  en: Tools
   habilities:
-    - name: Restfull API conception
+    - name: Git
+      level: 5
+    - name: Maven / Ant
+      level: 5
+    - name: Gulp / Grunt
       level: 5
     - name: Jenkins
       level: 2
-    - name: Git
-      level: 5
-    - name: Maven
-      level: 5
 - name: Administration habilities
+  fr: Administration
+  en: Admin
   habilities:
-    - name: Linux / UNIX (debian based / redhat based / archlinux based / freebsd based)
-      level: 5
-    - name: Tomcat
-      level: 5
-    - name: JBoss
-      level: 5
-    - name: Zimbra
-      level: 2
-    - name: Sonar
+    - name: Linux <i class='glyphicon glyphicon-heart'></i> / UNIX [archlinux / debian / ubuntu / redhat / freebsd] based
       level: 5
     - name: Nexus
       level: 5
     - name: Gitlab CE
       level: 5
+    - name: Tomcat
+      level: 4
+    - name: Sonar
+      level: 4
+    - name: JBoss
+      level: 3
+    - name: Zimbra
+      level: 2
