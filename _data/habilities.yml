@@ -70,6 +70,8 @@
       level: 5
     - name: Gitlab CE
       level: 5
+    - name: Nginx
+      level: 5
     - name: Tomcat
       level: 4
     - name: Sonar
