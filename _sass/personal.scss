@@ -58,13 +58,19 @@ p.highlight{
 }
 
 #curriculum-sumary{
-  width: 200px;
+  width: 300px;
   position: absolute;
   margin:0 auto;
   right: 0px;
   aside {
     right: 0px;
     margin-top: 10px;
+    z-index: 0 !important;
+    background: #282C34;
+    padding-left: 16px;
+    h4 {
+      width: 100%;
+    }
   }
 }
 
@@ -79,7 +85,7 @@ body.wrap{
 }
 
 main#curriculum section.news h3{
-  padding-top: 110px;
+  padding-top: 121px;
   margin-top: -110px;
   z-index: -1;
 }
@@ -99,6 +105,10 @@ ul.list-group li.list-group-item{
 ul.list-group li.list-group-item:hover{
   background-color: #616060;
   @include transition(all 250ms linear);
+}
+
+p.highlight{
+  padding-left: 15px;
 }
 
 $ratingSize: 80px;

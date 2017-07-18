@@ -1,26 +1,26 @@
-- name: Vekia
-  content: |
-    Ingénieur en developpement Java/J2EE GWT
-      - Progiciel de gestion d'affluence de stock en flux poussé (Provisia)
-      - Gestion de la partie IHM et applicative serveur JBoss.
-      - Création et maintient des scripts d'exploitation (Python)
-      - Création et maintient des scripts d'installation
-    Administrateur linux
-      - Administration des serveurs virtualisés de develloppement et de pré-production sous Kvm (Proxmox).
-      - Administration des serveur d'industrialisation
-      - Création d'une application de gestion de clés SSH pour authentification sur serveur de pré-prod et dev.
-    Website: <a href='http://www.vekia.fr/'>Vekia</a>
-- name: Opti-Mix
+- name: "[2014 : moment()] - Opti-Mix"
   content: |
     Ingénieur en développement Java/J2EE GWT - Nodejs - Python
-      - Création d'une application de liaison entre produit d'enseigne différentes (Java/GWT - Oracle)
-      - Création d'une application d'aspiration de site (Nodejs)
-      - Création d'une extension navigateur (Chrome / Firefox) pour la comparaison et la gestion de produit sur le web.
+        -  Création d'une application de liaison entre produit d'enseigne différentes (Java/GWT - Oracle)
+        -  Création d'une application d'aspiration de site (Nodejs)
+        -  Création d'une extension navigateur (Chrome / Firefox) pour la comparaison et la gestion de produit sur le web.
     Installation du socle de devloppement
-      - Création et maintient d'un framework de developpement pour les applications GWT
+        -  Création et maintien d'un framework de developpement pour les applications GWT
+- name: "[2009 : 1014] - Vekia"
+  content: |
+    Ingénieur en developpement Java/J2EE GWT
+        -  Progiciel de gestion d'affluence de stock en flux poussé (Provisia)
+        -  Gestion de la partie IHM et applicative serveur JBoss.
+        -  Création et maintien des scripts d'exploitation (Python)
+        -  Création et maintien des scripts d'installation
+    Administrateur linux
+        -  Administration des serveurs virtualisés de develloppement et de pré-production sous Kvm (Proxmox).
+        -  Administration des serveur d'industrialisation
+        -  Création d'une application de gestion de clés SSH pour authentification sur serveur de pré-prod et dev.
+    Website: <a href='http://www.vekia.fr/'>Vekia</a>
 - name: Autre / Opensource
   content: |
-    - Création d'une application de streaming sur navigateur web avec api REST (Nodejs) <a href="https://github.com/svandecappelle/ongaku">Ongaku</a>
-    - Maintient d'une librarie (via fork) JavaScript de génération de graphique en canvas (Javascript) <a href="https://github.com/svandecappelle/jQPlot">JQPlot</a>
-    - Maintient d'une librarie GWT de génération de graphique en canvas (Java) <a href="https://github.com/svandecappelle/vkl-graph">Vkl-graph</a>
-    - Site web <a href="http://sophie-vandecappelle.fr/">Sophie Vandecappelle website</a>
+    -  Création d'une application de streaming sur navigateur web avec api REST (Nodejs) <a href="https://github.com/svandecappelle/ongaku">Ongaku</a>
+    -  Maintien d'une librarie (via fork) JavaScript de génération de graphique en canvas (Javascript) <a href="https://github.com/svandecappelle/jQPlot">JQPlot</a>
+    -  Maintien d'une librarie GWT de génération de graphique en canvas (Java) <a href="https://github.com/svandecappelle/vkl-graph">Vkl-graph</a>
+    -  Site web <a href="http://sophie-vandecappelle.fr/">Sophie Vandecappelle website</a>

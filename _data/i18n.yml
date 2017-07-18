@@ -16,3 +16,12 @@ projects:
 about:
   en: About
   fr: A propos
+language:
+  fr: Langue
+  en: Language
+en:
+  fr: Anglais
+  en: English
+fr:
+  fr: Français
+  en: French

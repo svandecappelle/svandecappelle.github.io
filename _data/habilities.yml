@@ -15,7 +15,7 @@
     - name: Angular
       level: 1
 - name: programming-languages
-  fr: Langages
+  fr: Langages de programmation
   en: Programming languages
   habilities:
     - name: Java / J2EE
@@ -80,3 +80,27 @@
       level: 3
     - name: Zimbra
       level: 2
+- name: Langages
+  fr: Langues
+  en: Languages
+  habilities:
+    - name: french
+      fr: Français
+      en: French
+      level: 5
+    - name: english
+      fr: Anglais
+      en: English
+      level: 3
+    - name: japonese
+      fr: Japonais
+      en: Japanese
+      level: 3
+    - name: spanish
+      fr: Espagnol
+      en: Spanish
+      level: 2
+    - name: chinese
+      fr: Chinois
+      en: Chinese
+      level: 1
