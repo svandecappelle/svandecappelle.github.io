@@ -15,7 +15,7 @@
       {% include primary-nav-items.html %}
     </nav>
 
-    <div class="wrapper" style="text-align: right; margin-top: 6px; float: right; position: absolute; right: 120px; padding: 10px;">
+    <div class="wrapper hide-on-mobiles" style="text-align: right; margin-top: 6px; float: right; position: absolute; right: 120px; padding: 10px;">
       <div class="dropdown">
         <button class="btn btn-default dropdown-toggle" type="button" id="language-menu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
           {{ site.data.i18n.language[page.lang] }}
@@ -31,6 +31,19 @@
 
         </ul>
       </div>
+    </div>
+    <div class="docs-nav-mobile unit whole show-on-mobiles">
+      <select onchange="if (this.value) window.location.href=this.value">
+        <option value="">Language...</option>
+        <optgroup label="v1.x">
+          {% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
+          {% for post in posts %}<option value="{{ post.url | prepend: site.baseurl }}" class="{{ post.lang }}">{{ site.data.i18n[post.lang][post.lang] }}</option>{% endfor %}
+
+          {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
+          {% for page in pages %}<option value="{{ page.url | prepend: site.baseurl }}" class="{{ page.lang }}">{{ site.data.i18n[page.lang][page.lang] }}</option>{% endfor %}
+
+        </optgroup>
+      </select>
     </div>
   </div>
 </header>
