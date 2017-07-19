@@ -35,7 +35,7 @@
     <div class="docs-nav-mobile unit whole show-on-mobiles">
       <select onchange="if (this.value) window.location.href=this.value">
         <option value="">Language...</option>
-        <optgroup label="v1.x">
+        <optgroup label="select a language">
           {% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
           {% for post in posts %}<option value="{{ post.url | prepend: site.baseurl }}" class="{{ post.lang }}">{{ site.data.i18n[post.lang][post.lang] }}</option>{% endfor %}
 
