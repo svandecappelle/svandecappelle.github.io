@@ -73,6 +73,26 @@ p.highlight{
     }
   }
 }
+.mobile-nav {
+  a {
+    color: white;
+  }
+}
+
+ul.list-group {
+  list-style-type: none;
+  padding-left: 0px;
+
+  li.list-group-item{
+    padding: 7px;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .docs-nav-mobile.unit.whole.show-on-mobiles {
+      margin-top: 15px;
+  }
+}
 
 main {
   height: calc(100% - 18rem);

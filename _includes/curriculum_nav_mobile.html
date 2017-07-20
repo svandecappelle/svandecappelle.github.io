@@ -1,0 +1,23 @@
+<div class="docs-nav-mobile unit whole show-on-mobiles sticky-position curriculum_nav_mobile">
+  <select onchange="if (this.value) window.location.href=this.value">
+    <option value="">Navigate…</option>
+    <optgroup label="{{ site.data.i18n.habilities[page.lang] }}">
+      {% for hability in site.data.habilities %}
+        {% if hability[page.lang] %}
+          <option value="#{{ hability.name }}">{{  hability[page.lang] }}</option>
+        {% else %}
+          <option value="#{{ hability.name }}">{{ hability.name }}</option>
+        {% endif %}
+      {% endfor %}
+    </optgroup>
+    <optgroup label="{{ site.data.i18n.jobs[page.lang] }}">
+      {% for experiency in site.data.jobs %}
+        {% if experiency[page.lang] %}
+          <option value="#{{ experiency.name }}">{{ experiency[page.lang] }}</option>
+        {% else %}
+          <option value="#{{ experiency.name }}">{{ experiency.name }}</option>
+        {% endif %}
+      {% endfor %}
+    </optgroup>
+  </select>
+</div>
