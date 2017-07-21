@@ -32,7 +32,7 @@
       level: 3
     - name: Perl
       level: 2
-    - name: Scala
+    - name: Scala - Scala / Spark
       level: 2
     - name: Lua
       level: 1
