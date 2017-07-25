@@ -44,10 +44,10 @@
       level: 5
     - name: Redis
       level: 5
-    - name: Mongodb
-      level: 4
     - name: Postgresql
       level: 3
+    - name: Mongodb
+      level: 2
 - name: Programming utils
   fr: Outils
   en: Tools
