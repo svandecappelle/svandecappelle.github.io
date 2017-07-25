@@ -45,7 +45,7 @@
     - name: Redis
       level: 5
     - name: Postgresql
-      level: 3
+      level: 4
     - name: Mongodb
       level: 2
 - name: Programming utils
