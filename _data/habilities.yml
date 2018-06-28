@@ -13,7 +13,9 @@
     - name: Java / J2EE
       level: 4
     - name: Angular
-      level: 1
+      level: 3
+    - name: Ansible
+      level: 3
 - name: programming-languages
   fr: Langages de programmation
   en: Programming languages
@@ -31,7 +33,7 @@
     - name: C / C++
       level: 3
     - name: Perl
-      level: 2
+      level: 3
     - name: Scala - Scala / Spark
       level: 2
     - name: Lua
