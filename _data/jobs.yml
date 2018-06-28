@@ -1,4 +1,11 @@
-- name: "[2014 : moment()] - Opti-Mix"
+- name: "[novembre 2017 : moment()] - OVH"
+  content: |
+    Developpeur
+      - Automatisation des taches de l'UX
+      - Automatisation des déploiement preproduction / production
+      - Définition des process de developpement des applications
+      - Création de connecteurs d'APIs
+- name: "[aout 2014 : novembre 2017] - Opti-Mix"
   content: |
     Ingénieur en développement Java/J2EE GWT - Nodejs - Python
         -  Création d'une application de liaison entre produit d'enseigne différentes (Java/GWT - Oracle)
@@ -6,7 +13,7 @@
         -  Création d'une extension navigateur (Chrome / Firefox) pour la comparaison et la gestion de produit sur le web.
     Installation du socle de devloppement
         -  Création et maintien d'un framework de developpement pour les applications GWT
-- name: "[2009 : 2014] - Vekia"
+- name: "[juillet 2009 : aout 2014] - Vekia"
   content: |
     Ingénieur en developpement Java/J2EE GWT
         -  Progiciel de gestion d'affluence de stock en flux poussé (Provisia)
