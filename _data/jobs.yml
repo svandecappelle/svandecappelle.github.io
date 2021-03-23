@@ -2,12 +2,12 @@
   content: |
     Developpeur
     OPS
-      - Maintien de la solution de commande et suivi des services et des catalogues produits OVH
+       - Maintien de la solution de commande et suivi des services et des catalogues produits OVH
     UX-CI
-      - Automatisation des taches de l'UX
-      - Automatisation des déploiement preproduction / production
-      - Définition des process de developpement des applications
-      - Création de connecteurs d'APIs
+       - Automatisation des taches de l'UX
+       - Automatisation des déploiement preproduction / production
+       - Définition des process de developpement des applications
+       - Création de connecteurs d'APIs
 - name: "[aout 2014 : novembre 2017] - Opti-Mix"
   content: |
     Ingénieur en développement Java/J2EE GWT - Nodejs - Python
