@@ -32,6 +32,8 @@
       level: 4
     - name: C / C++
       level: 3
+    - name: Golang
+      level: 2
     - name: Perl
       level: 3
     - name: Scala - Scala / Spark
