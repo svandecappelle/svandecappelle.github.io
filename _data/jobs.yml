@@ -1,6 +1,9 @@
 - name: "[novembre 2017 : moment()] - OVH"
   content: |
     Developpeur
+    OPS
+      - Maintien de la solution de commande et suivi des services et des catalogues produits OVH
+    UX-CI
       - Automatisation des taches de l'UX
       - Automatisation des déploiement preproduction / production
       - Définition des process de developpement des applications
@@ -17,6 +20,7 @@
   content: |
     Ingénieur en developpement Java/J2EE GWT
         -  Progiciel de gestion d'affluence de stock en flux poussé (Provisia)
+        -  Progiciel de gestion de commande de stock en flux tiré (Probuy)
         -  Gestion de la partie IHM et applicative serveur JBoss.
         -  Création et maintien des scripts d'exploitation (Python)
         -  Création et maintien des scripts d'installation
