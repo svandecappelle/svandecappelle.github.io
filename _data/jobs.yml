@@ -14,11 +14,11 @@
     en: |
       Developer
       OPS
-        - Maintain an order and catalog solution of all OVH products
-      UXCI
-        - Automate UX tasks
-        - Automate continous delivery for preproduction and production
-        - API creation and connectors
+         - Maintain an order and catalog solution of all OVH products
+      UX-CI
+         - Automate UX tasks
+         - Automate continous delivery for preproduction and production
+         - API creation and connectors
 - name: "[aout 2014 : novembre 2017] - Opti-Mix"
   fr: "[aout 2014 : novembre 2017] - Opti-Mix"
   en: "[2014 august : 2017 november] - Opti-Mix"
@@ -32,11 +32,11 @@
           -  Création et maintien d'un framework de developpement pour les applications GWT
     en: |
       Software Java/J2EE GWT - NodeJS - Python Engineer 
-          - Developping a Linking product application for multiple site comparaison (Java/GWT - Oracle)
-          - Developping a grabber site application (NodeJS)
-          - Developping a browser extension (Chrome / Firefox) in order to show the linking comparaison products from the grabbed website?
+          -  Developping a Linking product application for multiple site comparaison (Java/GWT - Oracle)
+          -  Developping a grabber site application (NodeJS)
+          -  Developping a browser extension (Chrome / Firefox) in order to show the linking comparaison products from the grabbed website?
       Creation of a code-base developpment
-          - Creation of a base framework developpment for GWT applications
+          -  Creation of a base framework developpment for GWT applications
 - name: "[juillet 2009 : aout 2014] - Vekia"
   fr: "[juillet 2009 : aout 2014] - Vekia"
   en: "[2009 july : 2014 august] - Vekia"
@@ -53,6 +53,13 @@
           -  Administration des serveur d'industrialisation
           -  Création d'une application de gestion de clés SSH pour authentification sur serveur de pré-prod et dev.
       Website: <a href='http://www.vekia.fr/'>Vekia</a>
+    fr: |
+      Software engineer Java/J2EE GWT
+        -  Warehouse management system application for push-in-warehouse (Probuy)
+        -  Warehouse management system application for order from providers (Probuy)
+        -  Manage and create UIs and Jboss applicative maintenance
+        -  Create and maintain exploitation scripts (Python)
+        -  Create and maintain installationn scripts
 - name: Autre / Opensource
   fr: Autre / Opensource
   en: Other / Opensource
@@ -62,3 +69,8 @@
       -  Maintien d'une librarie (via fork) JavaScript de génération de graphique en canvas (Javascript) <a href="https://github.com/svandecappelle/jQPlot">JQPlot</a>
       -  Maintien d'une librarie GWT de génération de graphique en canvas (Java) <a href="https://github.com/svandecappelle/vkl-graph">Vkl-graph</a>
       -  Site web <a href="http://sophie-vandecappelle.fr/">Sophie Vandecappelle website</a>
+    en: |
+      -  Streaming application for video and music using an API (Nodejs)  <a href="https://github.com/svandecappelle/ongaku">Ongaku</a>
+      -  Contributor on a browser library of chart generating canvas (Javascript) <a href="https://github.com/svandecappelle/jQPlot">JQPlot</a>
+      -  GWT library binding a chart canvas JS library (Java) <a href="https://github.com/svandecappelle/vkl-graph">Vkl-graph</a>
+      -  Website <a href="http://sophie-vandecappelle.fr/">Sophie Vandecappelle website</a>
