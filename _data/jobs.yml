@@ -11,6 +11,14 @@
          - Automatisation des déploiement preproduction / production
          - Définition des process de developpement des applications
          - Création de connecteurs d'APIs
+    en: |
+      Developer
+      OPS
+        - Maintain an order and catalog solution of all OVH products
+      UXCI
+        - Automate UX tasks
+        - Automate continous delivery for preproduction and production
+        - API creation and connectors
 - name: "[aout 2014 : novembre 2017] - Opti-Mix"
   fr: "[aout 2014 : novembre 2017] - Opti-Mix"
   en: "[2014 august : 2017 november] - Opti-Mix"
@@ -20,8 +28,15 @@
           -  Création d'une application de liaison entre produit d'enseigne différentes (Java/GWT - Oracle)
           -  Création d'une application d'aspiration de site (Nodejs)
           -  Création d'une extension navigateur (Chrome / Firefox) pour la comparaison et la gestion de produit sur le web.
-      Installation du socle de devloppement
+      Installation du socle de developpement
           -  Création et maintien d'un framework de developpement pour les applications GWT
+    en: |
+      Software Java/J2EE GWT - NodeJS - Python Engineer 
+          - Developping a Linking product application for multiple site comparaison (Java/GWT - Oracle)
+          - Developping a grabber site application (NodeJS)
+          - Developping a browser extension (Chrome / Firefox) in order to show the linking comparaison products from the grabbed website?
+      Creation of a code-base developpment
+          - Creation of a base framework developpment for GWT applications
 - name: "[juillet 2009 : aout 2014] - Vekia"
   fr: "[juillet 2009 : aout 2014] - Vekia"
   en: "[2009 july : 2014 august] - Vekia"
