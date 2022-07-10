@@ -1,0 +1,34 @@
+title: Mots clés
+type: items
+index: 2
+items:
+  - name: Nodejs
+    icon: node-js
+  - name: HTML5 / CSS3
+    icon: html5
+  - name: GWT
+  - name: Rest API
+  - name: Angular
+    icon: angular
+  - name: Ansible
+  - name: Docker / K8S
+    icon: docker
+  - name: Javascript / Coffeescript
+    icon: js
+  - name: Java
+    icon: java
+  - name: Python
+    icon: python
+  - name: SQL
+  - name: BASH
+    icon: linux
+  - name: C / C++
+  - name: Golang
+    icon: golang
+  - name: Perl
+  - name: Scala
+  - name: Lua
+  - name: Oracle
+  - name: Redis
+  - name: Postgresql
+  - name: Mongodb
