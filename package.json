@@ -49,7 +49,7 @@
     "jsdom-global": "^3.0.2",
     "lint-staged": "^12.1.2",
     "nuxt-lodash": "^2.2.0",
-    "prettier": "^2.5.1",
+    "prettier": "^2.7.1",
     "require-extension-hooks": "^0.3.3",
     "require-extension-hooks-babel": "^1.0.0",
     "require-extension-hooks-vue": "^2.0.0"
