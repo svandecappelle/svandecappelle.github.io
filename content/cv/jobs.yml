@@ -1,0 +1,36 @@
+title: Jobs
+type: timeline
+index: 3
+items:
+  - title: OVH - Developpeur
+    date: 'Novembre 2017 - time.now()'
+    content: |
+      #### OPS
+         - Maintien de la solution de commande et suivi des services et des catalogues produits OVH
+      #### UX
+         - Automatisation des taches de l'UX
+         - Automatisation des déploiement preproduction / production
+         - Définition des process de developpement des applications
+         - Création de connecteurs d'APIs
+  - title: Opti-Mix - Developpeur
+    date: 'Août 2014 - Novembre 2017'
+    content: |
+      #### Ingénieur en développement Java/J2EE GWT - Nodejs - Python
+        -  Création d'une application de liaison entre produit d'enseigne différentes (Java/GWT - Oracle)
+        -  Création d'une application d'aspiration de site (Nodejs)
+        -  Création d'une extension navigateur (Chrome / Firefox) pour la comparaison et la gestion de produit sur le web.
+      #### Installation du socle de developpement
+        -  Création et maintien d'un framework de developpement pour les applications GWT
+  - title: Vekia - Developpeur
+    date: 'Juillet 2009 - Août 2014'
+    content: |
+      #### Ingénieur en developpement Java/J2EE GWT
+        -  Progiciel de gestion d'affluence de stock en flux poussé (Provisia)
+        -  Progiciel de gestion de commande de stock en flux tiré (Probuy)
+        -  Gestion de la partie IHM et applicative serveur JBoss.
+        -  Création et maintien des scripts d'exploitation (Python)
+        -  Création et maintien des scripts d'installation
+      #### Administrateur linux
+        -  Administration des serveurs virtualisés de develloppement et de pré-production sous Kvm (Proxmox).
+        -  Administration des serveur d'industrialisation
+        -  Création d'une application de gestion de clés SSH pour authentification sur serveur de pré-prod et dev.
