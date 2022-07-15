@@ -6,16 +6,35 @@ index: 1
 
 # Habilities
 
-TO DEFINE HOW TO SHOW
-
 ```python
-@dataclass
-class Python:
-    years = 6
-```
+from flask import jsonify, Flask
+from enum import Enum
 
-```c
-#ifndef XP
-#define XP 2
-#endif
+class Experience(Enum):
+    ovh = {
+        "lang": ["python", "go", "perl", "typescript", "javascript"],
+        "framworks": ["Flask", "Sql-Alchemy", "AngularJS", "Angular.io", "nest", "nuxt"],
+        "tools": ["Git", "Docker", "K8S"],
+        "time": 4
+    }
+    optimix = {
+        "lang": ["Java", "Python", "javascript", "Scala", "typescript"],
+        "framworks": ["GWT", "express", "Angular"],
+        "tools": ["Git", "express", "Tomcat", "Docker", "proxmox", "Gitlab"],
+        "time": 3
+    }
+    vekia = {
+        "lang": ["java", "python", "javascript"],
+        "framworks": ["GWT", "django", "jQuery", "express", "Hibernate"],
+        "tools": ["svn", "jenkins", "sonar", "KVM / proxmox", "Jboss"],
+        "time": 5
+    }
+
+app = Flask(__name__)
+
+@app.route('/', methods=['GET'])
+def xp():
+    return jsonify({e.name: e.value for e in Experience}), 200
+
+app.run()
 ```

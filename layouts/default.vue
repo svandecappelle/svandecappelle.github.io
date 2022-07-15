@@ -36,12 +36,17 @@
   </v-app>
 </template>
 
-<style scoped>
+<style>
 body,
 html {
   height: 100%;
 }
+code {
+  padding: 0 !important;
+}
+</style>
 
+<style scoped>
 .main {
   background-image: url('https://cdn.vuetifyjs.com/images/backgrounds/vbanner.jpg');
 
@@ -51,10 +56,6 @@ html {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-}
-
-.v-application code::v-deep {
-  padding: 0 !important;
 }
 </style>
 

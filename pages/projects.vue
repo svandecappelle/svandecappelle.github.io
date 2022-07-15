@@ -16,7 +16,10 @@
   justify-content: space-between;
 }
 .project {
-  flex: 1 1;
+  width: 25%;
+  flex-grow: 3;
+  flex-shrink: 1;
+  flex-flow: row wrap;
   padding: 0.5rem;
   margin: 0.5rem;
 }
