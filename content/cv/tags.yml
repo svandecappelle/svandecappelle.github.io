@@ -1,6 +1,6 @@
 title: Mots clés
 type: items
-index: 2
+index: 1
 items:
   - name: Nodejs
     icon: node-js
@@ -22,6 +22,7 @@ items:
   - name: SQL
   - name: BASH
     icon: linux
+  - name: Linux & FreeBSD lover
   - name: C / C++
   - name: Golang
     icon: golang

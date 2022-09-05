@@ -4,6 +4,7 @@
       <div class="text-center" v-for="item in items" :key="item.title">
         <!-- Text content -->
         <NuxtContent v-if="item.type == 'text'" :document="item" />
+
         <!-- Items -->
         <div v-if="item.type == 'items'" class="text-center">
           <h2>{{ item.title }}</h2>
@@ -46,8 +47,8 @@
 
 <style scoped>
 .cv {
-  margin-left: 0.5rem;
-  margin-right: 0.5rem;
+  margin: 0;
+  padding: 0.5rem;
 }
 .icon {
   margin-right: 3px;

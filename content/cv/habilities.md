@@ -1,7 +1,7 @@
 ---
 type: text
 title: habilities
-index: 1
+index: 2
 ---
 
 # Habilities
@@ -13,19 +13,19 @@ from enum import Enum
 class Experience(Enum):
     ovh = {
         "lang": ["python", "go", "perl", "typescript", "javascript"],
-        "framworks": ["Flask", "Sql-Alchemy", "AngularJS", "Angular.io", "nest", "nuxt"],
+        "frameworks": ["Flask", "Sql-Alchemy", "AngularJS", "Angular.io", "nest", "nuxt"],
         "tools": ["Git", "Docker", "K8S"],
-        "time": 4
+        "time": 5
     }
     optimix = {
         "lang": ["Java", "Python", "javascript", "Scala", "typescript"],
-        "framworks": ["GWT", "express", "Angular"],
+        "frameworks": ["GWT", "express", "Angular"],
         "tools": ["Git", "express", "Tomcat", "Docker", "proxmox", "Gitlab"],
         "time": 3
     }
     vekia = {
         "lang": ["java", "python", "javascript"],
-        "framworks": ["GWT", "django", "jQuery", "express", "Hibernate"],
+        "frameworks": ["GWT", "django", "jQuery", "express", "Hibernate"],
         "tools": ["svn", "jenkins", "sonar", "KVM / proxmox", "Jboss"],
         "time": 5
     }
