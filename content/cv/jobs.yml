@@ -6,8 +6,9 @@ items:
     date: 'Novembre 2017 - time.now()'
     content: |
       #### OPS
-         - Maintien de la solution de commande et suivi des services et des catalogues produits OVH
+         - Maintien de la solution de commande, de suivi des services et de gestion des catalogues produits OVH
       #### UX
+         - Création des applications interne de gestion des catalogues et des services
          - Automatisation des taches de l'UX
          - Automatisation des déploiement preproduction / production
          - Définition des process de developpement des applications

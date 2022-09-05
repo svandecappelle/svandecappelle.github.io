@@ -1,8 +1,8 @@
 ---
 title: Alienfx
 type: text
-index: 0
+index: 1
+url: https://github.com/svandecappelle/alienfx
 ---
 
 Alienware keyboard color controller written in C using libusb
-[github](https://github.com/svandecappelle/alienfx)

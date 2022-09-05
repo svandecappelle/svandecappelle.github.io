@@ -1,8 +1,8 @@
 ---
 title: Excel exporter
 type: text
-index: 0
+index: 6
+url: https://github.com/svandecappelle/excel-exporter
 ---
 
 A client-side Json-to-excel transformer written with nuxtjs
-[github](https://github.com/svandecappelle/excel-exporter)
