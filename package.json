@@ -22,7 +22,7 @@
     "@nuxtjs/fontawesome": "^1.1.2",
     "@tailwindcss/typography": "^0.5.7",
     "core-js": "^3.29.0",
-    "lodash": "^4.17.21",
+    "lodash": "^4.17.23",
     "markdown-it": "^13.0.1",
     "nuxt": "2.15.8",
     "vue": "2.7.10",
