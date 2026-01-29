@@ -28,4 +28,5 @@ jobs:
         with:
           username: 'svandecappelle'
           reponame: 'svandecappelle.github.io'
+          node-version: ${{ matrix.node-version }}
           token: ${{ secrets.GITHUB_TOKEN }} # Leave this line unchanged
