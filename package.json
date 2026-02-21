@@ -24,7 +24,7 @@
     "core-js": "^3.29.0",
     "lodash": "^4.17.21",
     "markdown-it": "^13.0.1",
-    "nuxt": "2.15.8",
+    "nuxt": "4.3.1",
     "vue": "2.7.10",
     "vue-lodash": "^2.1.2",
     "vue-server-renderer": "2.7.10",
@@ -45,6 +45,6 @@
     "prettier": "^2.7.1",
     "require-extension-hooks": "^0.3.3",
     "require-extension-hooks-vue": "^2.0.0",
-    "webpack": "^4.46.0"
+    "webpack": "^5.105.2"
   }
 }
